@@ -1,0 +1,43 @@
+{
+  "name": "backend-boilerplate",
+  "version": "1.2.3",
+  "description": "NodeJS Backend Boilerplate",
+  "main": "./src/app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeveloITSolutions/nodets-boilerplate"
+  },
+  "keywords": [],
+  "author": "FaisalJamil-DITS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeveloITSolutions/nodets-boilerplate/issues"
+  },
+  "homepage": "https://github.com/DeveloITSolutions/nodets-boilerplate#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "socket.io": "^4.7.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
